@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/asset/css/materi-2.css">
+</head>
+<body>
+    <header>
+        <nav class="navigasi">
+          <span class="hamburger-btn material-symbols-rounded">menu</span>
+          <a href="#" class="logo">
+            <img src="/asset/img/logo-website.png" alt="logo">
+            <h2>LearnPlace.code</h2>
+          </a>
+          <ul class="links">
+            <span class="close-btn material-symbols-rounded">close</span>
+            <li><a href="/view/dashboard.html#homepage">Beranda</a></li>
+            <li><a href="/view/dashboard.html#card">Kelas</a></li>
+            <li><a href="/view/dashboard.html#testi">Testimony</a></li>
+            <li><a href="/view/dashboard.html#acordion">Tentang Kami</a></li>
+          </ul>
+          <button class="login-btn">LOG IN</button>
+        </nav>
+      </header>
+      <div>
+        <div class="blur-bg-overlay"></div>
+        <div class="form-popup">
+          <span class="close-btn material-symbols-rounded">close</span>
+          <div class="form-box login">
+            <div class="form-details">
+              <h2>Welcome Back</h2>
+              <p>Please log in using your personal information to stay connected with us.</p>
+            </div>
+            <div class="form-content">
+              <h2>LOGIN</h2>
+              <form action="#">
+                <div class="input-field">
+                  <input type="text" required>
+                  <label>Email</label>
+                </div>
+                <div class="input-field">
+                  <input type="password" required>
+                  <label>Password</label>
+                </div>
+                <a href="#" class="forgot-pass-link">Forgot password?</a>
+                <button type="submit">Log In</button>
+              </form>
+              <div class="bottom-link">
+                Don't have an account?
+                <a href="#" id="signup-link">Signup</a>
+              </div>
+            </div>
+          </div>
+          <div class="form-box signup">
+            <div class="form-details">
+              <h2>Create Account</h2>
+              <p>To become a part of our community, please sign up using your personal information.</p>
+            </div>
+            <div class="form-content">
+              <h2>SIGNUP</h2>
+              <form action="#">
+                <div class="input-field">
+                  <input type="text" required>
+                  <label>Enter your email</label>
+                </div>
+                <div class="input-field">
+                  <input type="password" required>
+                  <label>Create password</label>
+                </div>
+                <div class="policy-text">
+                  <input type="checkbox" id="policy">
+                  <label for="policy">
+                    I agree the
+                    <a href="#" class="option">Terms & Conditions</a>
+                  </label>
+                </div>
+                <button type="submit">Sign Up</button>
+              </form>
+              <div class="bottom-link">
+                Already have an account?
+                <a href="#" id="login-link">Login</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="grid" ></div>	  
+  <section class="page-wrapper" >
+
+
+    <article>
+        <span></span>
+        <h1 class="canter">Proses Pembelajaran </h1>
+        <p>Selamat datang di LearnPlace.code Sebelum memulai perjalanan belajar Anda, mari kita pahami tahapan belajar, metode pembelajaran, dan fasilitas yang dapat meningkatkan efektivitas proses belajar Anda.</p>
+        <h1>Bantuan Teknis</h1>
+        <p>Apabila Anda mengalami kendala terkait situs Ajarinpuh.com atau administrasi kelas, jangan ragu untuk menghubungi kami melalui tombol chat di kanan bawah layar saat mengakses situs Ajarinpuh.com. Gunakanlah fitur chat ini untuk pertanyaan teknis, bukan forum diskusi. Terima kasih!</p>
+        <h1>Bantuan Teknis</h1>
+        <p>Mayoritas materi dalam kelas ini berbentuk teks atau tulisan. Mengapa demikian? Karena kami telah menyadari bahwa dalam belajar pemrograman, materi teks efektif untuk diingat, dipahami, dan yang paling penting, dipraktikkan.</p>
+      </article>
+
+      <article>
+        <h1 class="canter">Pengantar CSS</h1>
+        <p>CSS adalah bahasa yang kami gunakan untuk menata gaya dokumen HTML.
+            CSS menjelaskan bagaimana elemen HTML harus ditampilkan.
+            Tutorial ini akan mengajarkan Anda CSS dari dasar hingga lanjutan.</p>
+        <h1>Pengenalan CSS</h1>
+        <p>CSS adalah bahasa yang kami gunakan untuk menata halaman Web.</p>
+        <h1>Apa itu CSS?</h1>
+        <p>CSS adalah singkatan dari Cascading Style Sheet
+            CSS menjelaskan bagaimana elemen HTML ditampilkan di layar, kertas, atau di media lain
+            CSS menghemat banyak pekerjaan. Itu dapat mengontrol tata letak beberapa halaman web sekaligusStylesheet eksternal disimpan dalam file CSS</p>
+        <h1>Mengapa Menggunakan CSS?</h1>
+        <p>CSS digunakan untuk menentukan gaya halaman web Anda, termasuk desain, tata letak, dan variasi tampilan untuk berbagai perangkat dan ukuran layar.</p>
+        <h1>CSS Memecahkan Masalah Besar</h1>
+        <p>HTML TIDAK PERNAH dimaksudkan untuk memuat tag untuk memformat halaman web!
+            HTML dibuat untuk mendeskripsikan konten halaman web, seperti:
+            <span>&lt;h1&gt;</span> Ini adalah judul <span>&lt;h1&gt;</span>
+            <span>&lt;p&gt;</span> Ini adalah sebuah paragraf. <span>&lt;p&gt;</span>
+            Ketika tag seperti <span>&lt;font&gt</span>;, dan atribut warna ditambahkan ke spesifikasi HTML 3.2, hal ini menimbulkan mimpi buruk bagi pengembang web. Pengembangan situs web besar, di mana font dan informasi warna ditambahkan ke setiap halaman, menjadi proses yang panjang dan mahal.Untuk mengatasi masalah ini, World Wide Web Consortium (W3C) menciptakan CSS.CSS menghapus pemformatan gaya dari halaman HTML!</p>
+      </article>
+
+      <article>
+        <h1 class="canter">Pemilihan CSS</h1>
+        <p>Aturan CSS terdiri dari pemilih dan blok deklarasi.</p>
+        <h1>Sintaks CSS</h1>
+        <img src="/asset/img/css/materi-css-1.png" alt="" class="img-materi-1">
+        <p>Pemilih menunjuk ke elemen HTML yang ingin Anda gaya.
+            Blok deklarasi berisi satu atau lebih deklarasi yang dipisahkan oleh titik koma.
+            Setiap deklarasi mencakup nama properti CSS dan nilai, dipisahkan oleh titik dua.
+            Beberapa deklarasi CSS dipisahkan dengan titik koma, dan deklarasi balok dikelilingi oleh kawat gigi keriting.</p>
+        <img src="/asset/img/css/materi-css-2.png" alt="" sizes="img-materi-1">
+        <h1>Contoh di jelaskan</h1>
+        <p>• padalah pemilih di CSS (itu menunjuk ke elemen HTML yang ingin Anda gaya: <span>&lt;p&gt;</span>).</p>
+        <p>• color adalah properti, dan red adalah nilai properti</p>
+        <p>• text-align adalah properti, dan center adalah nilai properti</p>
+      </article>
+
+      <article>
+          <h1 class="canter">Pemilih CSS</h1>
+          <p>Aturan CSS terdiri dari pemilih dan blok deklarasi.</p>
+          <h1>Pemilih CSS</h1>
+          <p>
+          Selektor CSS digunakan untuk &#34;menemukan&#34; (atau memilih) elemen HTML Anda ingin gaya.<br /><br />Kami
+          dapat membagi pemilih CSS menjadi lima kategori:<br />1. Selektor sederhana (pilih elemen berdasarkan
+          nama, id, kelas)<br />2. Pemilih kombinator (pilih elemen berdasarkan hubungan tertentu di antara
+          mereka)<br />3. Pemilih kelas semu (pilih elemen berdasarkan keadaan tertentu)<br />4.Selektor elemen semu
+          (pilih dan gaya bagian dari elemen)<br />5. Selektor atribut (pilih elemen berdasarkan atribut atau nilai
+          atribut)<br /><br />Halaman ini akan menjelaskan pemilih CSS paling dasar.
+          </p>
+          <img src="/asset/img/css/materi-css-3.png" alt="" class="img-materi-1">
+          <h1>Pemilih id CSS</h1>
+          <p>
+          <br />Pemilih id menggunakan atribut id dari elemen HTML untuk memilih elemen tertentu.<br /><br />Id
+          elemen unik di dalam halaman, jadi pemilih id adalah dulu pilih satu elemen unik!<br /><br />Untuk
+          memilih elemen dengan id tertentu, tulis karakter hash (#), diikuti oleh id elemen.
+          </p>
+          <h1>Contoh</h1>
+          <p>Aturan CSS di bawah ini akan diterapkan ke elemen HTML dengan id = &#34;para1&#34;:</p>
+          <img src="/asset/img/css/materi-css-4.png" alt="" class="img-materi-1">
+          <h1>Pemilih kelas CSS</h1>
+          <p>
+          Pemilih kelas memilih elemen HTML dengan atribut kelas tertentu.Untuk memilih elemen dengan kelas
+          tertentu, tulis karakter periode (.), Diikuti oleh nama kelas
+          </p>
+          <h1>contoh</h1>
+          <p>
+          Dalam contoh ini semua elemen HTML dengan kelas = &#34;pusat&#34; akan berwarna merah dan sejajar tengah:
+          </p>
+          <img src="/asset/img/css/materi-css-5.png" alt="" class="img-materi-1">
+          <p>
+          Anda juga dapat menentukan bahwa hanya elemen HTML tertentu yang akan terpengaruh oleh kelas.
+          </p>
+          <h1>Contoh</h1>
+          <p>
+          Dalam contoh ini hanya elemen &lt; p &gt; dengan kelas = &#34;pusat&#34; akan menjadi merah dan sejajar
+          tengah:
+          </p>
+          <img src="/asset/img/css/materi-css-6.png" alt="" class="img-materi-1">
+          <p>
+          Dalam contoh ini elemen &lt; p &gt; akan ditata sesuai dengan kelas = &#34;pusat&#34; dan ke kelas =
+          &#34;besar&#34;:
+          </p>
+          <h1>Contoh</h1>
+          <p>
+          Dalam contoh ini elemen &lt; p &gt; akan ditata sesuai dengan kelas = &#34;pusat&#34; dan ke kelas =
+          &#34;besar&#34;:
+          </p>
+          <img src="/asset/img/css/materi-css-7.png" alt="" class="img-materi-1">
+          <h1>Pemilih Universal CSS</h1>
+          <p>Aturan CSS di bawah ini akan memengaruhi setiap elemen HTML di halaman</p>
+          <img src="/asset/img/css/materi-css-8.png" alt="" class="img-materi-1">
+          <h1>Pemilih Pengelompokan CSS</h1>
+          <p>
+          Pemilih pengelompokan memilih semua elemen HTML dengan gaya yang sama definisi.<br />Lihatlah kode CSS
+          berikut (elemen h1, h2, dan p memiliki yang sama definisi gaya):
+          </p>
+          <img src="/asset/img/css/materi-css-9.png" alt="" class="img-materi-1">
+          <h1>Contoh</h1>
+          <p>
+          Akan lebih baik untuk mengelompokkan pemilih, untuk meminimalkan kode.Untuk mengelompokkan pemilih,
+          pisahkan setiap pemilih dengan koma.
+          </p>
+          <img src="/asset/img/css/materi-css-10.png" alt="" class="img-materi-1">
+          </div>
+      </article>
+
+      <article>
+        <h1 class="canter">Cara Menambahkan CSS</h1>
+        <p>Ketika browser membaca lembar gaya, itu akan memformat dokumen HTML sesuai dengan informasi dalam lembar gaya.</p>
+        <h1>Tiga Cara untuk Memasukkan CSS</h1>
+        <p>Ada tiga cara memasukkan lembar gaya:</p>
+        <p>1. CSS eksternal</p>
+        <p>2. CSS internal</p>
+        <p>3. Inline CSS</p>
+        <h1>CSS eksternal</h1>
+        <p>Dengan lembar gaya eksternal, Anda dapat mengubah tampilan seluruh situs web dengan mengubah hanya satu file!
+            Setiap halaman HTML harus menyertakan referensi ke file lembar gaya eksternal di dalamnya elemen  <span>&lt;tautan&gt;</span>, di dalam bagian kepala.</p>
+        <h1>Contoh</h1>
+        <p>Gaya eksternal didefinisikan dalam elemen <span>&lt;tautan&gt;</span>, di dalam bagian <span>&lt;&gt;</span> pada halaman HTML:</p>
+        <img src="/asset/img/css/materi-css-7.png" alt="" class="img-materi-1">
+        <p>Lembar gaya eksternal dapat ditulis dalam editor teks apa pun, dan harus disimpan dengan ekstensi .css.File .
+            css eksternal seharusnya tidak mengandung tag HTML apa pun.
+            Begini tampilan file "mystyle.css:</p>
+        <img src="/asset/img/css/materi-css-3.png" alt="" class="img-materi-1">
+        <h1>CSS internal</h1>
+        <p>Lembar gaya internal dapat digunakan jika satu halaman HTML tunggal memiliki gaya yang unik.
+            Gaya internal didefinisikan di dalam elemen <span>&lt;style&gt;</span>, di dalam kepala bagian.</p>
+        <h1>Contoh</h1>
+        <p>Gaya internal didefinisikan dalam elemen <span>&lt;style&gt;</span>, di dalam bagian <span>&lt;head&gt;</span> dari halaman HTML:</p>
+        <img src="/asset/img/css/materi-css-8.png" alt="" class="img-materi-1">
+        <h1>Inline CSS</h1>
+        <p>Gaya inline dapat digunakan untuk menerapkan gaya unik untuk satu elemen.
+            Untuk menggunakan gaya sebaris, tambahkan atribut gaya ke elemen yang relevan. 
+            Itu atribut style dapat berisi properti CSS apa pun.</p>
+        <h1>Contoh</h1>
+        <p>Gaya sebaris didefinisikan dalam atribut "gaya" dari yang relevan elemen:</p>
+        <img src="/asset/img/css/materi-css-9.png" alt="" class="img-materi">
+        <h1>Beberapa Lembar Gaya</h1>
+        <p>Jika beberapa properti telah ditentukan untuk pemilih (elemen) yang sama dalam lembaran gaya yang berbeda, nilai dari lembar gaya baca terakhir akan digunakan</p>
+        <p>Anggap itu lembar gaya eksternal memiliki gaya berikut untuk elemen <span>&lt;h1&gt;</span>:</p>
+        <img src="/asset/img/css/materi-css-10.png" alt="" class="img-materi-1">
+        <p>Kemudian, anggap itu a lembar gaya internal juga memiliki gaya berikut untuk elemen <span>&lt;h1&gt;</span>:</p>
+        <img src="/asset/img/css/materi-css-11.png" alt="" class="img-materi-1">
+        <h1>Contoh</h1>
+        <p>Jika gaya internal ditentukan setelah tautan ke lembar gaya eksternal, elemen <span>&lt;h1&gt;</span> akan menjadi "oranye":</p>
+        <img src="/asset/img/css/materi-css-12.png" alt="" class="img-materi-1">
+        <h1>Contoh</h1>
+        <p>Gaya apa yang akan digunakan ketika ada lebih dari satu gaya yang ditentukan untuk elemen HTML?
+            Semua gaya dalam satu halaman akan "cascade" menjadi gaya "virtual" baru lembar dengan aturan berikut, di mana nomor satu memiliki prioritas tertinggi:</p>
+            <p>1. Gaya sebaris (di dalam elemen HTML)</p>
+            <p>2. Lembar gaya eksternal dan internal (di bagian kepala).</p>
+            <p>3. Browser default</p>
+            <p>Jadi, gaya inline memiliki prioritas tertinggi, dan akan menimpa eksternal dan gaya internal dan default browser</p>
+    </article>
+
+    <article>
+        <h1>Cara Menambahkan CSS</h1>
+        <p>
+        Ketika browser membaca lembar gaya, itu akan memformat dokumen HTML sesuai dengan informasi dalam lembar
+        gaya.
+        </p>
+        <p>Tiga Cara untuk Memasukkan CSS</p>
+        <p class="p">
+        Ada tiga cara memasukkan lembar gaya:<br />1. CSS eksternal<br />2. CSS internal<br />3. Inline CSS
+        </p>
+        <h1>CSS eksternal</h1>
+        <p>
+        Dengan lembar gaya eksternal, Anda dapat mengubah tampilan seluruh situs web dengan mengubah hanya satu
+        file!<br /><br />Setiap halaman HTML harus menyertakan referensi ke file lembar gaya eksternal di
+        dalamnya elemen &lt; tautan &gt;, di dalam bagian kepala.
+        </p>
+        <h1>Contoh</h1>
+        <p>
+        Gaya eksternal didefinisikan dalam elemen <span>&lt; link &gt;</span>, di dalam bagian <span>&lt; &gt;</span> pada halaman HTML:
+        </p>
+        <img src="/asset/img/css/materi-css-17.png" alt="" class="img-materi">
+        <p>
+        Lembar gaya eksternal dapat ditulis dalam editor teks apa pun, dan harus disimpan dengan ekstensi
+        .css.File .<br /><br />css eksternal seharusnya tidak mengandung tag HTML apa pun.<br /><br />Begini
+        tampilan file &#34;mystyle.css:
+        </p>
+        <img src="/asset/img/css/materi-css-16.png" alt="" class="img-materi">
+        <p>
+        Catatan: Jangan menambahkan spasi antara nilai properti (20) dan unit (px):Salah (ruang): margin-left: 20
+        px;Benar (tidak ada ruang): margin-left: 20px;
+        </p>
+        <h1>CSS Internal/h1>
+        <p>
+        Lembar gaya internal dapat digunakan jika satu halaman HTML tunggal memiliki gaya yang unik.<br /><br />Gaya
+        internal didefinisikan di dalam elemen <span> &lt; style &gt;</span>, di dalam kepala bagian.
+        </p>
+        <h1>Contoh</h1>
+        <p >
+        Gaya internal didefinisikan dalam elemen <span>&lt; style &gt;</span>, di dalam bagian <span>&lt; head &gt;</span> dari halaman
+        HTML:
+        </p>
+        <img src="/asset/img/css/materi-css-15.png" alt="" class="img-materi">
+        <h1>Inline CSS</h1>
+        <p>
+        Gaya inline dapat digunakan untuk menerapkan gaya unik untuk satu elemen.<br />Untuk menggunakan gaya
+        sebaris, tambahkan atribut gaya ke elemen yang relevan. <br />Itu atribut style dapat berisi properti CSS
+        apa pun.
+        </p>
+        <h1>Contoh</h1>
+        <p>Gaya sebaris didefinisikan dalam atribut &#34;gaya&#34; dari yang relevan elemen:</p>
+        <img src="/asset/img/css/materi-css-14.png" alt="" class="img-materi">
+        <h1>Beberapa Lembar Gaya</h1>
+        <p">
+        Jika beberapa properti telah ditentukan untuk pemilih (elemen) yang sama dalam lembaran gaya yang berbeda,
+        nilai dari lembar gaya baca terakhir akan digunakan
+        </p>
+        <p>Anggap itu lembar gaya eksternal memiliki gaya berikut untuk elemen <span>&lt; h1 &gt;</span>:</p>
+        <img src="/asset/img/css/materi-css-13.png" alt="" class="img-materi-1">
+        <p>
+        Kemudian, anggap itu a lembar gaya internal juga memiliki gaya berikut untuk elemen <span>&lt; h1 &gt;</span>:
+        </p>
+        <img src="/asset/img/css/materi-css-12.png" alt="" class="img-materi-1">
+        <h1>Contoh</h1>
+        <p>
+        Jika gaya internal ditentukan setelah tautan ke lembar gaya eksternal, elemen <span>&lt; h1 &gt;</span> akan menjadi
+        &#34;oranye&#34;:
+        </p>
+        <img src="/asset/img/css/materi-css-11.png" alt="" class="img-materi">
+        <h1>Contoh</h1>
+        <p>
+        Gaya apa yang akan digunakan ketika ada lebih dari satu gaya yang ditentukan untuk elemen HTML?<br />Semua
+        gaya dalam satu halaman akan &#34;cascade&#34; menjadi gaya &#34;virtual&#34; baru lembar dengan aturan
+        berikut, di mana nomor satu memiliki prioritas tertinggi:<br />1. Gaya sebaris (di dalam elemen HTML)<br />2.
+        Lembar gaya eksternal dan internal (di bagian kepala)<br />3. Browser default<br />Jadi, gaya inline
+        memiliki prioritas tertinggi, dan akan menimpa eksternal dan gaya internal dan default browser.
+        </p>
+    </article>
+
+
+    <article>
+      <h1>Materi Lainya Bisa Dilihat Di Bawah Ini</h1>
+      <div class="a-materi">
+        <a class="a-link" href="https://www.w3schools.com/css/">pelajari lebih lanjut</a>
+      </div>
+    </article>
+
+
+  </section>
+    
+
+
+        <!-- Footer -->
+        <div class="" style="width: 100%; padding-top: 10rem;">
+            <!-- Footer -->
+            <footer
+                    class="text-center text-lg-start text-white"
+                    style="background-color: bisque"
+                    >
+              <!-- Grid container -->
+              <div class="p-4 pb-0">
+                <!-- Section: Links -->
+                <section class="">
+                  <!--Grid row-->
+                  <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-dark">
+                      <h6 class="text-uppercase mb-4 fw-bold text-dark">
+                        LearnPlace.code
+                      </h6>
+                      <p>
+                        Terimakasih sudah berkunjung di website ini . Dukung selalu website ini untuk lebih berkembang lagi.
+                      </p>
+                    </div>
+                    <!-- Grid column -->
+          
+                    <hr class="w-100 clearfix d-md-none" />
+          
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                      <h6 class="text-uppercase mb-4 fw-bold text-dark">Materi</h6>
+                      <p>
+                        <a class="text-dark text-decoration-none">HTML</a>
+                      </p>
+                      <p>
+                        <a class="text-dark text-decoration-none">CSS</a>
+                      </p>
+                      <p>
+                        <a class="text-dark text-decoration-none">JavaScript</a>
+                      </p>
+                    </div>
+                    <!-- Grid column -->
+          
+                    <hr class="w-100 clearfix d-md-none" />
+          
+                    <!-- Grid column -->
+                    <hr class="w-100 clearfix d-md-none" />
+          
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                      <h6 class="text-uppercase mb-4 font-weight-bold text-dark fw-bold">Contact</h6>
+                      <p class="fas fa-home mr-3 text-dark fw-normal">Jl. Cikeusik No.73, Cikeusik, Cidahu, Kabupaten Kuningan, Jawa
+                        Barat.</p>
+                      <p class="fas fa-envelope mr-3 text-dark"> admin@PlaceLearn.com</p>
+                      <p class="fas fa-phone mr-3 text-dark"> + 62 823 612 0306</p>
+                      <p class="fas fa-print mr-3 text-dark"> +08236120306</p>
+                    </div>
+                    <!-- Grid column -->
+          
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                      <h6 class="text-uppercase mb-4 fw-bold text-dark">Follow us</h6>
+                      <div class="social-media d-flex">
+                        <img class="footer-icon mt-1" src="/asset/img/logo-fb.png" alt="" />
+                        <img class="footer-icon mt-1" src="/asset/img/logo-ig.png" alt="" />
+                        <img
+                          class="footer-icon mt-1"
+                          src="/asset/img/logo-twitter.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <!--Grid row-->
+                </section>
+                <!-- Section: Links -->
+              </div>
+              <!-- Grid container -->
+          
+              <!-- Copyright -->
+              <div
+                   class="text-center p-3 text-dark"
+                   style="background-color: rgba(0, 0, 0, 0.2)"
+                   >
+                © 2023 Copyright:
+                <a class="text-dark fw-bold text-decoration-none" href="#"
+                   >Team Merah</a
+                  >
+              </div>
+              <!-- Copyright -->
+            </footer>
+            <!-- Footer -->
+          </div>
+          
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/asset/js/script.js"></script>
+</body>
+</html>
